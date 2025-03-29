@@ -12,10 +12,10 @@ assignees: ''
 -
 
 ## To Reproduce
-- 
+-
 
 ## Expected behavior
-- 
+-
 
 ## Screenshots
 -
@@ -27,5 +27,4 @@ assignees: ''
 -
 
 ## Your Environment
-- 
-
+-

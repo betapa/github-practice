@@ -1,6 +1,7 @@
 from typing import Union, Optional
 
-def add(a: Union[int, float], b: Union[int, float]) -> Optional [Union[int, float]]:
+
+def add(a: Union[int, float], b: Union[int, float]) -> Optional[Union[int, float]]:
     try:
         result = a + b
     except Exception as e:
@@ -8,6 +9,7 @@ def add(a: Union[int, float], b: Union[int, float]) -> Optional [Union[int, floa
         return None
 
     return result
+
 
 if __name__ == "__main__":
     print(add(1, 2))  # Output: 3
