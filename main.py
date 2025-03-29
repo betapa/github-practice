@@ -1,8 +1,8 @@
-from typing import Union
+from typing import Union, Optional
 
 def add(a: Union[int, float], b: Union[int, float]) -> Optional [Union[int, float]]:
     try:
-        result = x + y
+        result = a + b
     except Exception as e:
         print(e)
         return None
